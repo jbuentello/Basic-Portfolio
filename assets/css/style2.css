@@ -3,6 +3,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
 }
 
 .headerbox {
@@ -27,6 +28,7 @@ body {
     color: white;
     /* border-radius: 15px; */
     font-family: 'Georgia', Times, Times New Roman, serif;
+    
 }
 
 .navbar {
@@ -37,26 +39,10 @@ body {
     height: 25px;
     border-none: 3px solid gray;
     padding: 0px;
-}
-img {
-    height: 200px;
-    width: 200px;
-    float: left;
-    padding: 20px;
+    
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:#666666;
-    color: white;
-    text-align: center;
-    border-top: 8px solid #4aaaa5
-}
-
-.mainbox {
+.contactbox {
     position: absolute;
     top: 125px;
     right: 350px;
@@ -67,18 +53,51 @@ img {
     background-color:white;
 }
 
-.mainboxunderline {
+.contactheader {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 15px;
+    font-size: 35px;
     border-bottom: 5px solid #cccccc;
     height: 50px;
     margin-left: 15px;
     margin-right: 15px;
 }
 
-/* .toolbar {
-    float: right;
-    border-style: none;
-    padding: 20px;
-} */
+form {
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+
+}
+
+.form-control {
+    width: 60%;
+    background: transparent;
+    border: 3px solid #cccccc;
+    font-size: 18px;
+    margin-left: 15px;
+
+}
+
+.form-controlsubmit {
+    width: 100px;
+    height: 30px;
+    margin: 15px;
+    background-color: #4aaaa5;
+    font-weight: bold;
+
+}
+
+input {
+    height: 35px;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#666666;
+    color: white;
+    text-align: center;
+    border-top: 8px solid #4aaaa5
