@@ -27,7 +27,7 @@ body {
     background-color: #4aaaa5;
     color: white;
     /* border-radius: 15px; */
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
     
 }
 
@@ -91,6 +91,11 @@ input {
     height: 35px;
 }
 
+img {
+    height: 200px;
+    width: 200px;
+    transform: rotate(90deg);
+}
 
 .footer {
     position: fixed;
